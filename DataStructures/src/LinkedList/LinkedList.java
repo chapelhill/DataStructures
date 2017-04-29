@@ -79,25 +79,5 @@ public class LinkedList {
 		return i;
 	}
 
-	public static void main(String[] args) {
 
-		LinkedList list = new LinkedList();
-		list.appendtotail(10);
-		list.appendtotail(177);
-		list.appendtotail(2);
-		list.appendtotail(3);
-		list.appendtotail(4);
-		list.appendtotail(4);
-		list.appendtotail(777);
-		list.printList(list.getHead());
-		System.out.println(list.getHead().getData());
-		list.reverse2(list.getHead());
-		System.out.println(list.getHead().getData());
-		list.printList((list.getHead()));
-
-		// list.printList(list.reverse(list.getHead()));
-
-		System.out.println(list.getcount());
-
-	}
 }
